@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Enfoque 360</title>
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="">
+	<meta name="application-name" content="Sitio web oficial de enfoque 360">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shorcut icon" type="imge/x-ico" href="imgs/ico_enfoque.ico" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Sanchez:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/estilos.css"> 
+
+</head>
+<body>
+
+	<div class="bg"></div>
+
+	<div class="menu_desplegable">
+		<div class="menu_img text-center">
+			<img src="imgs/logo_blanco.png" alt="">
+			<span class="cerrar_menu cambio glyphicon glyphicon-remove" aria-hidden="true"></span>
+		</div>
+		<div class="menu_info text-center">
+			<small>Lunes, 25 de Marzo 2017</small>
+		</div>
+		<div class="col-xs-2 menu_redes">
+			<a class="cambio ico_fb" href="#"><img src="imgs/ico_fb.png" alt=""></a>
+			<a class="cambio ico_twtr" href="#"><img src="imgs/ico_twtr.png" alt=""></a>
+			<a class="cambio ico_inst" href="#"><img src="imgs/ico_inst.png" alt=""></a>
+		</div>
+		<div class="col-xs-10 menu_categorias">
+			<ul>
+				<li><a href="index.html" class="a_categorias cambio">Inicio</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría uno</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría dos</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría tres</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría cuatro</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría cinco</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría seis</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría siete</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría ocho</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría nueve</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría diez</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría a</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría b</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría c</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="myModalLogin" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	    <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      	<div class="modal-body">
+		      		<div class="cont_acceder">
+		        		<form>
+		        			<legend class="ttls_principales">Acceder</legend>
+				          	<div class="form-group">
+				            	<input type="text" class="form-control" id="" placeholder="Nombre de usuario">
+				          	</div>
+				          	<div class="form-group">
+				          		<input type="password" class="form-control sd" id="" placeholder="Contraseña">
+				          	</div>
+				          	<div class="checkbox">
+						    	<label>
+						      		<input type="checkbox"> Recordarme
+						    	</label>
+						  	</div>
+							<button type="submit" class="botones submit_login">Acceder</button>
+				        </form>
+				        <div class="or">
+				        	<span>o</span>
+				        </div>
+				  		<div class="login_cont text-center">
+				  			<h4 class="">Accede con tus redes sociales</h4>
+				  			<div class="login_redes">
+				  				<a class="fb" href="#"><img src="imgs/ico_fb.png" alt="Registro con Facebook"></a>
+				  				<a class="tw" href="#"><img src="imgs/ico_twtr.png" alt="Registro con Twitter"></a>
+				  				<a class="go" href="#"><img src="imgs/ico_google.png" alt="Registro con Google "></a>
+				  			</div>
+				  		</div>
+		        	</div>
+		        	<div class="cont_registro">
+		        		<form>
+		        			<legend class="ttls_principales">Registrar</legend>
+				          	<div class="form-group">
+				            	<input type="text" class="form-control" id="" placeholder="Nombre de usuario">
+				          	</div>
+				          	<div class="form-group">
+				            	<input type="email" class="form-control" id="" placeholder="Correo electrónico">
+				          	</div>
+				          	<div class="form-group">
+				          		<input type="password" class="form-control sd" id="" placeholder="Contraseña">
+				          	</div>
+				          	<div class="form-group">
+				          		<input type="password" class="form-control sd" id="" placeholder="Repetir contraseña">
+				          	</div>
+							<button type="submit" class="botones submit_login">Registrar</button>
+				        </form>
+				        <div class="or">
+				        	<span>o</span>
+				        </div>
+				  		<div class="login_cont text-center">
+				  			<h4 class="">Regístrate con tus redes sociales</h4>
+				  			<div class="login_redes">
+				  				<a class="fb" href="#"><img src="imgs/ico_fb.png" alt="Registro con Facebook"></a>
+				  				<a class="tw" href="#"><img src="imgs/ico_twtr.png" alt="Registro con Twitter"></a>
+				  				<a class="go" href="#"><img src="imgs/ico_google.png" alt="Registro con Google "></a>
+				  			</div>
+				  		</div>
+		        	</div>
+		      	</div>
+			</div>
+	  	</div>
+	</div>
+
+	<div class="btn_new_post cambxio">
+		<a class="aa" href=""><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> SUBIR FOTO</a>
+		<a class="bb" href=""><span class="glyphicon glyphicon-film" aria-hidden="true"></span> SUBIR VIDEO</a>
+	</div>
+
+	<section class="contenedor_gral">
+		<header class="container-fluid">
+			<div class="buscador">
+				<div class="busq_a">
+					<form class="form">
+	        			<div class="form-group">
+	         				<input type="text" class="form-control " placeholder="Presiona Enter para buscar">
+	       				</div>
+	     			</form>
+				</div>
+				<div class="busq_b ">
+					<button type="button" class="btn_cerrar_busqueda " aria-label="Left Align">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+			<div class="cont_header">
+				<nav class="h_nav row">
+					<div class="h_nav_cont_btn">
+						<a class="btn_menu cambio">
+						<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+							<span class="hidden-xs">CONTENIDO</span>
+						</a>
+					</div>
+					<div class="h_nav_cont_logo_hover text-center">
+						<a href="index.html"><img class="logo_hover" src="imgs/logo_blanco.png" alt=""></a>
+					</div>
+					<div class="h_nav_media text-right">
+						<span>
+							<a class="user_login" href="#"  data-toggle="modal" data-target="#myModalLogin">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <span class="hidden-xs ">Acceder </span>
+							</a>
+
+						</span>
+						<span class="hidden-xs ">
+							<a class="ico_header" href="#"><img src="imgs/ico_fb_rueda_b.png" title="Síguenos en facebook" alt="Facebook"></a>
+							<a class="ico_header" href="#"><img src="imgs/ico_twtr_rueda_b.png" title="Síguenos en twitter" alt="Twitter"></a>
+							<a class="ico_header" href="#"><img src="imgs/ico_inst_rueda_b.png" title="Síguenos en instagram" alt="Instagram"></a>
+						</span>
+						<a class="btn_buscar"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+					</div>
+				</nav>
+				<div class="h_logo text-center row">
+					<a href="index.html"><img src="imgs/Logo-animado-360.gif" alt="Logo Enfoque 360"></a>
+				</div>
+			</div>
+		</header>
+
+		<!-- SEC SLIDE INICIO -->
+		<div class="sec_slider"> 
+			<div class="container">
+				<div id="carousel_home" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators hidden-xs">
+						<li data-target="#carousel_home" data-slide-to="0" class="active">1</li>
+						<li data-target="#carousel_home" data-slide-to="1">2</li>
+						<li data-target="#carousel_home" data-slide-to="2">3</li>
+						<li data-target="#carousel_home" data-slide-to="3">4</li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active bg_slide_home slide_img_1 text-center">
+							<a href="entradas.html"><img src="imgs/agencia/slider/banner1.jpg" alt=""></a>
+						</div>
+						<div class="item bg_slide_home slide_img_2 text-center">
+							<a href="entradas.html"><img src="imgs/agencia/slider/banner2.jpg" alt=""></a>
+						</div>
+						<div class="item bg_slide_home slide_img_2 text-center">
+							<a href="entradas.html"><img src="imgs/agencia/slider/banner3.jpg" alt=""></a>
+						</div>
+						<div class="item bg_slide_home slide_img_2 text-center">
+							<a href="entradas.html"><img src="imgs/agencia/slider/banner4.jpg" alt=""></a>
+						</div>
+					</div>
+					<a href="#carousel_home" class="carousel-control left" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a href="#carousel_home" class="carousel-control right" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+				<div class="shadow_bottom"></div>
+			</div>
+		</div>
+	
+ 		<!-- SEC INFLUENCERS -->
+		<div class="sec_influencers">
+			<div class="cont_ttls_redondos">
+				<h1 class="ttls_sec_redondos">influencers</h1> 
+			</div>
+			<div class="cont_foto">
+				<div class="container text-center">
+					<div class="carousel_influencers owl-carousel owl-theme">
+			            <div class="item">
+			              	<a class="a_info cambio" href="#">
+								<div class="div_foto">
+									<img src="imgs/influencers/aa.jpg" alt="">
+								</div>
+								<h4>Nombre del Influencers</h4>
+								<p>Jóven Emprendedor</p>
+							</a>
+			            </div>
+			            <div class="item">
+			            	<a class="a_info cambio" href="#">
+								<div class="div_foto">
+									<img src="imgs/influencers/bb.jpg" alt="">
+								</div>
+								<h4>Nombre del Influencers</h4>
+								<p>Youtubers</p>
+							</a>
+			            </div>
+			            <div class="item">
+			              	<a class="a_info cambio" href="#">
+								<div class="div_foto">
+									<img src="imgs/influencers/cc.jpg" alt="">
+								</div>
+								<h4>Nombre del Influencers</h4>
+								<p>Youtubers</p>
+							</a>
+			            </div>
+			            <div class="item">
+			              	<a class="a_info cambio" href="#">
+								<div class="div_foto">
+									<img src="imgs/influencers/dd.jpg" alt="">
+								</div>
+								<h4>Nombre del Influencers</h4>
+								<p>Youtubers</p>
+							</a>
+			            </div>
+			            <div class="item">
+			              	<a class="a_info cambio" href="#">
+								<div class="div_foto">
+									<img src="imgs/influencers/bb.jpg" alt="">
+								</div>
+								<h4>Nombre del Influencers</h4>
+								<p>Youtubers</p>
+							</a>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</div>  
+		
+		<!-- CONT ENTRADAS -->
+		<div class="container"> 
+			<div class="cont_entradas">
+				<!-- COLUMNA_PRINCIPAL -->
+				<div class="col-sm-8">  
+					<!-- CAROUSEL_FAVORITOS_PRINCIPAL -->
+					<div class="panel panel-default sec_carousel_favoritos">
+					  	<div class="panel-heading">
+					  		<h3 class="ttls_principales">Los favoritos</h3>
+					  		<a href="#" class="btn_mas">+</a>
+					  	</div>
+					  	<div class="panel-body">
+					   		<div class="carousel_favoritos owl-carousel owl-theme">
+					            <div class="item">
+					           		<a class="" href="#">
+					           			<div class="crop">
+					           				<img src="imgs/comunidad/a.jpg" alt="">
+					           			</div>
+					           			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+					           		</a>
+					           		<div class="div_btn_categorias">
+										<a href="#" class="btn_categorias cambio">Categoría</a>
+									</div>
+					           		<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+					            </div>
+								<div class="item">
+					           		<a class="" href="#">
+					           			<div class="crop">
+					           				<img src="imgs/comunidad/bg3b.jpg" alt="">
+					           			</div>
+					           			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+					           		</a>
+					           		<div class="div_btn_categorias">
+										<a href="#" class="btn_categorias cambio">Categoría</a>
+									</div>
+					           		<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<a class="" href="#">
+					           			<div class="crop">
+					           				<img src="imgs/comunidad/c.jpg" alt="">
+					           			</div>
+					           			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+					           		</a>
+					           		<div class="div_btn_categorias">
+										<a href="#" class="btn_categorias cambio">Categoría</a>
+									</div>
+					           		<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<a class="" href="#">
+					           			<div class="crop">
+					           				<img src="imgs/comunidad/d.jpg" alt="">
+					           			</div>
+					           			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+					           		</a>
+					           		<div class="div_btn_categorias">
+										<a href="#" class="btn_categorias cambio">Categoría</a>
+									</div>
+					           		<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<a class="" href="#">
+					           			<div class="crop">
+					           				<img src="imgs/comunidad/e.jpg" alt="">
+					           			</div>
+					           			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+					           		</a>
+					           		<div class="div_btn_categorias">
+										<a href="#" class="btn_categorias cambio">Categoría</a>
+									</div>
+					           		<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+					            </div>
+					        </div>
+					  	</div>
+					</div>
+
+					<!-- PUBLICIDAD -->
+					<div class="publicidad m_bottom_2">
+						<a href="#"><img class="img-responsive" src="imgs/publicidad/pub_large.jpg" alt="Publicidad Large"></a>
+					</div>
+
+					<!-- POST_PRINCIPAL -->
+					<div class="panel panel-default">
+					  	<div class="panel-body">
+							<div class="user_post">
+								<a href="#" class="user_cont cambio">
+									<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+									<span class="user_name">Nombre de usuario</span>
+								</a>
+							</div>
+							<div class="post_grafico">
+								<a href="entradas.html"><img class="zoom grafico_media" src="imgs/comunidad/a.jpg" alt=""></a>
+								<div class="sec_btns_compartir ">
+									<div class="btns_compartir text-left">
+										<a href="#"><img src="imgs/ico_fb_rueda_b.png" alt=""></a>
+										<a href="#"><img src="imgs/ico_twtr_rueda_b.png" alt=""></a>
+									</div>
+									<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+									
+								</div>
+							</div>
+							<div class="cont_info">
+								<h2 class="ttls_principales nowrap"><a href="entradas.html">TÍasascascasc asascasc tulo de las entradas de comunidad</a></h2>
+								<div class="info_post">
+									<a href="#" class="btn_categorias cambio">Categoría</a>
+									<span>21 de Marzo 2017</span>
+								</div>
+								<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus repellat temporibus culpa qui libero odit voluptate veniam laborum alias non.</p>
+							</div>
+					  	</div>
+					</div>
+					<div class="panel panel-default">
+					  	<div class="panel-body">
+							<div class="user_post">
+								<a href="#" class="user_cont cambio">
+									<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+									<span class="user_name">Nombre de usuario</span>
+								</a>
+							</div>
+							<div class="post_grafico">
+								<a href="entradas.html"><img class="zoom grafico_media" src="imgs/comunidad/bg3b.jpg" alt=""></a>
+								<div class="sec_btns_compartir ">
+									<div class="btns_compartir text-left">
+										<a href="#"><img src="imgs/ico_fb_rueda_b.png" alt=""></a>
+										<a href="#"><img src="imgs/ico_twtr_rueda_b.png" alt=""></a>
+									</div>
+									<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="cont_info">
+								<h2 class="ttls_principales"><a href="entradas.html">TÍtulo de las entradas de comunidad</a></h2>
+								<div class="info_post">
+									<a href="#" class="btn_categorias cambio">Categoría</a>
+									<span>21 de Marzo 2017</span>
+								</div>
+								<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus repellat temporibus culpa qui libero odit voluptate veniam laborum alias non.</p>
+							</div>
+					  	</div>
+					</div>
+					<div class="panel panel-default">
+					  	<div class="panel-body">
+							<div class="user_post">
+								<a href="#" class="user_cont cambio">
+									<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+									<span class="user_name">Nombre de usuario</span>
+								</a>
+							</div>
+							<div class="post_grafico">
+								<a href="entradas.html"><img class="zoom grafico_media" src="imgs/comunidad/c.jpg" alt=""></a>
+								<div class="sec_btns_compartir ">
+									<div class="btns_compartir text-left">
+										<a href="#"><img src="imgs/ico_fb_rueda_b.png" alt=""></a>
+										<a href="#"><img src="imgs/ico_twtr_rueda_b.png" alt=""></a>
+									</div>
+									<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="cont_info">
+								<h2 class="ttls_principales"><a href="entradas.html">TÍtulo de las entradas de comunidad</a></h2>
+								<div class="info_post">
+									<a href="#" class="btn_categorias cambio">Categoría</a>
+									<span>21 de Marzo 2017</span>
+								</div>
+								<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus repellat temporibus culpa qui libero odit voluptate veniam laborum alias non.</p>
+							</div>
+					  	</div>
+					</div>
+					<div class="panel panel-default">
+					  	<div class="panel-body">
+							<div class="user_post">
+								<a href="#" class="user_cont cambio">
+									<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+									<span class="user_name">Nombre de usuario</span>
+								</a>
+							</div>
+							<div class="post_grafico">
+								<a href="entradas.html"><img class="zoom grafico_media" src="imgs/comunidad/d.jpg" alt=""></a>
+								<div class="sec_btns_compartir ">
+									<div class="btns_compartir text-left">
+										<a href="#"><img src="imgs/ico_fb_rueda_b.png" alt=""></a>
+										<a href="#"><img src="imgs/ico_twtr_rueda_b.png" alt=""></a>
+									</div>
+									<div class="cont_likes">
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DC;</i>
+											<span class="num_likes">123</span>
+										</button>
+										<button type="button" class="cambio">
+											<i class="material-icons">&#xE8DB;</i>
+											<span class="num_likes">123</span>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="cont_info">
+								<h2 class="ttls_principales"><a href="entradas.html">TÍtulo de las entradas de comunidad</a></h2>
+								<div class="info_post">
+									<a href="#" class="btn_categorias cambio">Categoría</a>
+									<span>21 de Marzo 2017</span>
+								</div>
+								<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus repellat temporibus culpa qui libero odit voluptate veniam laborum alias non.</p>
+							</div>
+					  	</div>
+					</div>
+				</div>
+
+				<!-- COLUMNA_LATERAL -->
+				<div class="col-sm-4 sec_lateral hidden-xs hidden-smd"> 
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						  		<h3 class="ttls_principales">Internacional</h3>
+						  		<a href="#" class="btn_mas">+</a>
+						  	</div>
+							<div class="panel-body">
+								<div class="cont_post_lateral">
+									<a href="entradas.html">
+										<img src="imgs/agencia/img_lateral1.jpg" alt="">
+										<h4 class="ttls_principales">TÍtulo del post lateral</h4>
+									</a>
+									<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit doloribus repellat.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						  		<h3 class="ttls_principales">Nacional</h3>
+						  		<a href="#" class="btn_mas">+</a>
+						  	</div>
+							<div class="panel-body">
+								<div class="cont_post_lateral">
+									<a href="entradas.html">
+										<img src="imgs/agencia/img_lateral2.jpg" alt="">
+										<h4 class="ttls_principales">TÍtulo del post lateral</h4>
+									</a>
+									<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit doloribus repellat.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						  		<h3 class="ttls_principales">Categoría agencia</h3>
+						  		<a href="#" class="btn_mas">+</a>
+						  	</div>
+							<div class="panel-body">
+								<div class="cont_post_lateral">
+									<a href="entradas.html">
+										<img src="imgs/agencia/img_lateral2.jpg" alt="">
+										<h4 class="ttls_principales">TÍtulo del post lateral</h4>
+									</a>
+									<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit doloribus repellat.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						  		<h3 class="ttls_principales">Categoría agencia</h3>
+						  		<a href="#" class="btn_mas">+</a>
+						  	</div>
+							<div class="panel-body">
+								<div class="cont_post_lateral">
+									<a href="entradas.html">
+										<img src="imgs/agencia/img_lateral2.jpg" alt="">
+										<h4 class="ttls_principales">TÍtulo del post lateral</h4>
+									</a>
+									<p class="sumario">Lorem ipsum dolor sit amet, consectetur adipisicing elit doloribus repellat.</p>
+								</div>
+							</div>
+						</div>
+						<div class="publicidad_lateral text-center">
+							<div>
+								<a href="#"><img class="img-responsive" src="imgs/publicidad/pub_lateral.png" alt="Publicidad Lateral"></a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class=" text-center">
+				2017 Enfoque 360. Todos los derechos reservados.
+			</div>
+		</footer>
+	</section>
+
+	<!-- scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/material.js"></script>
+	<script src="js/ripples.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+
+
+					

@@ -1,0 +1,53 @@
+
+
+.logo_hover_2{
+	cursor: pointer;
+	height: 47px;
+	padding: .25em 0;
+}
+
+footer{
+	position: fixed !important;
+	bottom: 0 !important;
+	width: 100vw;
+}
+
+.container{
+	padding: 0;
+}
+
+.xaxa{
+	background: #eeeeee
+}
+
+.view_admin{
+	margin-top: 3.5em;
+	background: #ffffff;
+	position: relative;
+}
+
+.cont_menu_lateral{
+	border-left: .1em solid #ddd;
+	border-right: .1em solid #ddd;
+	height: 100%;
+	padding: 0 1em;
+	padding-bottom: 10%;
+	position: fixed;
+	overflow: auto;
+	width: 21%;
+
+}
+
+.contenidor_view{
+	border-right: .1em solid #ddd;
+	float: right;
+	padding: 0 1em;
+	padding-bottom: 10%;
+	position: relative;
+	width: 75%;	
+}
+
+.toolbar_admin {
+
+}
+

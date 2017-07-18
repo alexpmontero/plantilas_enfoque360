@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Enfoque 360</title>
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="">
+	<meta name="application-name" content="Sitio web oficial de enfoque 360">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shorcut icon" type="imge/x-ico" href="imgs/ico_enfoque.ico" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Sanchez:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+	<div class="bg"></div>
+
+	<div class="menu_desplegable">
+		<div class="menu_img text-center">
+			<img src="imgs/logo_blanco.png" alt="">
+			<span class="cerrar_menu cambio glyphicon glyphicon-remove" aria-hidden="true"></span>
+		</div>
+		<div class="menu_info text-center">
+			<small>Lunes, 25 de Marzo 2017</small>
+		</div>
+		<div class="col-xs-2 menu_redes">
+			<a class="cambio ico_fb" href="#"><img src="imgs/ico_fb.png" alt=""></a>
+			<a class="cambio ico_twtr" href="#"><img src="imgs/ico_twtr.png" alt=""></a>
+			<a class="cambio ico_inst" href="#"><img src="imgs/ico_inst.png" alt=""></a>
+		</div>
+		<div class="col-xs-10 menu_categorias">
+			<ul>
+				<li><a href="index.html" class="a_categorias cambio">Inicio</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría uno</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría dos</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría tres</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría cuatro</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría cinco</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría seis</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría siete</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría ocho</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría nueve</a></li>
+				<li><a href="#" class="a_categorias cambio">Categoría diez</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<section class="contenedor_gral">
+
+		<header class="container-fluid">
+			<div class="buscador">
+				<div class="busq_a">
+					<form class="form">
+	        			<div class="form-group">
+	         				<input type="text" class="form-control " placeholder="Presiona Enter para buscar">
+	       				</div>
+	     			</form>
+				</div>
+				<div class="busq_b ">
+					<button type="button" class="btn_cerrar_busqueda " aria-label="Left Align">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+			<div class="cont_header">
+				<nav class="h_nav row">
+					<div class="h_nav_cont_btn">
+						<a class="btn_menu cambio">
+						<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+							<span class="hidden-xs">CONTENIDO</span>
+						</a>
+					</div>
+					<div class="h_nav_cont_logo_hover text-center">
+						<a href="index.html"><img class="logo_hover" src="imgs/logo_blanco.png" alt=""></a>
+					</div>
+					<div class="h_nav_media text-right">
+						<span>
+							<a class="user_login" href="#"  data-toggle="modal" data-target="#myModalLogin">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <span class="hidden-xs ">Acceder </span>
+							</a>
+						</span>
+						<span class="hidden-xs ">
+							<a class="ico_header" href="#"><img src="imgs/ico_fb_rueda_b.png" title="Síguenos en facebook" alt="Facebook"></a>
+							<a class="ico_header" href="#"><img src="imgs/ico_twtr_rueda_b.png" title="Síguenos en twitter" alt="Twitter"></a>
+							<a class="ico_header" href="#"><img src="imgs/ico_inst_rueda_b.png" title="Síguenos en instagram" alt="Instagram"></a>
+						</span>
+						<a class="btn_buscar"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+					</div>
+				</nav>
+				<div class="h_logo text-center row cambio">
+					<a href="index.html"><img src="imgs/Logo-animado-360.gif" alt="Logo Enfoque 360"></a>
+				</div>
+			</div>
+		</header>
+
+		<div id="mdl_seguidores" class="modal fade mdl_follow" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+				    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				    <h2 class="modal-title">Seguidores</h2>
+				    <div class="modal-body text-left">
+						<div class="list-group">
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						</div>
+				    </div>
+			    </div>
+			</div>
+		</div>
+
+		<div id="mdl_seguidos" class="modal fade mdl_follow" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+				    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				    <h2 class="modal-title">Seguidos</h2>
+				    <div class="modal-body text-left">
+						<div class="list-group">
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						  	<div class="list-group-item">
+						    	<div class="row-action-primary">
+						     		<img class="user_avatar" src="imgs/avatar_user/user.jpg" alt="user">
+						    	</div>
+
+						    	<div class="row-content">
+
+						      		<div class="action-secondary checkbox"><label><input type="checkbox" checked> <span class="label_checkbox hidden-xs ">Siguiendo</span></label></div>
+						      		<a href="#"><h4 class="list-group-item-heading">Nombre_usuario</h4></a>
+
+						      		<p class="list-group-item-text">Nombre completo del usuario</p>
+						    	</div>
+						  	</div>
+						  	<div class="list-group-separator"></div>
+						</div>
+
+
+				    </div>
+			    </div>
+			</div>
+		</div>
+
+		<div id="mdl_change_pass" class="modal fade mdl_follow" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+				    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				    <h2 class="modal-title"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Cambiar contraseña</h2>
+				    <div class="modal-body text-left">
+						<form>
+				          	<div class="form-group">
+				          		<label for="">Contraseña actual</label>
+				            	<input type="password" class="form-control" id="" placeholder="Contraseña actual">
+				          	</div>
+				          	<div class="form-group">
+				          		<label for="">Nueva contraseña</label>
+				          		<input type="password" class="form-control" id="" placeholder="Nueva contraseña">
+				          	</div>
+				          	<div class="form-group">
+				          		<label for="">Confirmar nueva contraseña</label>
+				          		<input type="password" class="form-control" id="" placeholder="Confirmar nueva contraseña">
+				          	</div>
+				          	
+							<button type="submit" class="btn"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Cambiar contraseña</button>
+				        </form>
+				    </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="row contenedor_profiles panel panel-default">
+			<div class="sec_previous_details">
+				<div class="">
+					<div class="item">
+		              	<a class="a_info cambio" >
+							<div class="div_foto">
+								<img src="imgs/influencers/aa.jpg" alt="">
+							</div>
+						</a>
+		            </div>
+				</div>
+				<div class="">
+					<h1>Alejandro Pérez Montero </h1>
+					<div class="sec_followers ">
+						<h2 class="text-center btn_publication">20 <br> <span>Publicaciones</span></h2>
+						<h2 class="text-center btn_followers" data-toggle="modal" data-target="#mdl_seguidores">55 <br> <span>Seguidores</span></h2>
+						<h2 class="text-center btn_followed" data-toggle="modal" data-target="#mdl_seguidos">35 <br> <span>Seguidos</span></h2>
+					</div>
+				</div>
+				<aside class="sec_options">
+					<button class="btn btn_publication"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Publicaciones</button>
+					<button class="btn btn_editar_profile"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar perfil</button>
+				</aside>
+			</div>
+
+			<div class="contenido_over_perfil">
+				<div class="sec_publicaciones">
+					<div class="item">
+				   		<a class="" href="entradas.html">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad nhiunh58 66666666h</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes ">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/bg3b.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad 666666666666 uibhu bhubhubh bhybh666666666666 uibhu bhubhubh bhybh 666666666666 uibhu bhubhubh bhybh</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <div class="item">
+				   		<a class="" href="#">
+				   			<div class="crop">
+				   				<img src="imgs/comunidad/a.jpg" alt="">
+				   			</div>
+				   			<h5 class="ttls_principales">TÍtulo entradas de comunidad</h5>
+				   		</a>
+				   		<div class="div_btn_categorias">
+							<a href="#" class="btn_categorias cambio">Categoría</a>
+						</div>
+				   		<div class="cont_likes">
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DC;</i>
+								<span class="num_likes">123</span>
+							</button>
+							<button type="button" class="cambio">
+								<i class="material-icons">&#xE8DB;</i>
+								<span class="num_likes">123</span>
+							</button>
+						</div>
+			        </div>
+			        <aside class="text-center">
+			        	<button type="submit" class="btn"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Cargar más</button>
+			        </aside>
+		        </div>
+
+				<div class="sec_data_user">
+					<form>
+						<div class="col-sm-6">
+							<legend>INFORMACIÓN BÁSICA</legend>
+				          	<div class="form-group">
+				            	<label for="example">Nombre de Usuario</label>
+		    					<input type="text" class="form-control" id="example">
+				          	</div>
+				          	<div class="form-group">
+				            	<label for="example">Correo electrónico</label>
+		    					<input type="text" class="form-control" id="example">
+				          	</div>
+				          	<div class="row row_input">
+				          		<div class="col-xs-6">
+					          		<div class="form-group">
+						            	<label for="example">Nombre</label>
+				    					<input type="text" class="form-control" id="example">
+						          	</div>
+					          	</div>
+					          	<div class="col-xs-6">
+					          		<div class="form-group">
+						            	<label for="example">Apellidos</label>
+				    					<input type="text" class="form-control" id="example">
+						          	</div>
+					          	</div>
+				          	</div>
+				          	<div class="form-group">
+				            	<label for="example">Sobre mi</label>
+		    					<textarea class="form-control" rows="3"></textarea>
+				          	</div>
+				          	<div class="form-group">
+				          		<a class="btn" data-toggle="modal" data-target="#mdl_change_pass"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Cambiar contraseña</a>
+		    					
+				          	</div>
+						</div>
+						<div class="col-sm-6">
+							<legend>INFORMACIÓN PRIVADA</legend>
+				          	<div class="form-group">
+				            	<label for="example">Dirección </label>
+		    					<input type="text" class="form-control" id="example">
+				          	</div>
+				          	<div class="row row_input">
+				          		<div class="col-xs-6">
+					          		<div class="form-group">
+						            	<label for="example">Ciudad</label>
+				    					<input type="text" class="form-control" id="example">
+						          	</div>
+					          	</div>
+					          	<div class="col-xs-6">
+					          		<div class="form-group">
+						            	<label for="example">Estado</label>
+				    					<input type="text" class="form-control" id="example">
+						          	</div>
+					          	</div>
+				          	</div>
+				          	<div class="row row_input">
+				          		<div class="col-xs-6">
+					          		<div class="form-group">
+						            	<label for="example">Pais</label>
+				    					<input type="text" class="form-control" id="example">
+						          	</div>
+					          	</div>
+					          	<div class="col-xs-6">
+					          		<div class="form-group">
+						            	<label for="example">Teléfono</label>
+				    					<input type="text" class="form-control" id="example">
+						          	</div>
+					          	</div>
+				          	</div>
+				          	<div class=" form-group">
+				          		<div class="row">
+					          		<label class="col-xs-12 fn">Fecha de nacimiento</label>
+					          		<div class="col-xs-3">
+							          	<div class="form-group fn">
+									      	<label for="dia" class="fn control-label">Día</label>
+									        <select id="dia" class="form-control">
+												<option>01</option>
+												<option>02</option>
+												<option>03</option>
+												<option>04</option>
+												<option>05</option>
+												<option>06</option>
+												<option>07</option>
+												<option>08</option>
+												<option>09</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+												<option>25</option>
+												<option>26</option>
+												<option>27</option>
+												<option>28</option>
+												<option>29</option>
+												<option>30</option>
+												<option>31</option>
+									        </select>
+									    </div>		          			
+					          		</div>
+					          		<div class="col-xs-6">
+							          	<div class="form-group fn">
+									      	<label for="mes" class="fn control-label">Mes</label>
+											<select id="mes" class="form-control">
+												<option>Enero</option>
+												<option>Febrero</option>
+												<option>Marzo</option>
+												<option>Abril</option>
+												<option>Mayo</option>
+												<option>Junio</option>
+												<option>Julio</option>
+												<option>Agosto</option>
+												<option>Septiembre</option>
+												<option>Octubre</option>
+												<option>Noviembre</option>
+												<option>Diciembre</option>
+									        </select>
+									    </div>		          			
+					          		</div>
+					          		<div class="col-xs-3">
+							          	<div class="form-group fn">
+									      	<label for="anio" class="fn control-label">Año</label>
+									        <select id="anio" class="form-control">
+												<option>01</option>
+												<option>02</option>
+												<option>03</option>
+												<option>04</option>
+												<option>05</option>
+												<option>06</option>
+												<option>07</option>
+												<option>08</option>
+												<option>09</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+												<option>25</option>
+												<option>26</option>
+												<option>27</option>
+												<option>28</option>
+												<option>29</option>
+												<option>30</option>
+												<option>31</option>
+									        </select>
+									    </div>		          			
+					          		</div>
+					       		</div>
+				          	</div>
+				          	<div class="form-group">
+				            	<label>Sexo</label>
+					          	<div class="radio">
+								 	<label>
+								    	<input type="radio" name="sexo" value="hombre" checked="">Hombre
+								  	</label>
+								  	<label>
+								    	<input type="radio" name="sexo" value="mujer">Mujer
+								  	</label>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 text-center">
+								<hr>
+								<a class="btn btn_reg"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Regresar</a>
+								<button type="submit" class="btn"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Guardar</button>
+							</div>
+						</div>
+				    </form>
+				</div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="footer_bottom text-center">
+				2017 Enfoque 360. Todos los derechos reservados.
+			</div>
+		</footer>
+	</section>
+
+	<!-- scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/material.js"></script>
+	<script src="js/ripples.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
